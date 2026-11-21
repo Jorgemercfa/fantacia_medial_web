@@ -1,0 +1,84 @@
+/* Reset global limpio */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Outfit, Inter, Avenir, Helvetica, Arial, sans-serif;
+}
+
+/* Asegura altura completa real */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #FFF5E1;
+  color: #000000;
+  overflow-x: hidden;
+}
+
+/* Root limpio sin cambios automáticos */
+:root {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+/* App ocupa todo el viewport */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+#app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Links */
+a {
+  font-weight: 500;
+  color: #3a4356;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #2c3444;
+}
+
+/* Headings */
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+/* Botones */
+button {
+  border-radius: 8px;
+  border: none;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  background-color: #FC4747;
+  color: white;
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button:focus,
+button:focus-visible {
+  outline: none;
+}
+
+/* Cards */
+.card {
+  padding: 2em;
+}
+
+footer {
+  margin-top: auto;
+}
